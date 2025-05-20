@@ -33,7 +33,7 @@ st.markdown("<h1 style='text-align: center; color: #1f77b4;'>🚗 USED-CAR PRICE
 st.markdown("<p style='text-align: center; font-size: 18px;'>Estimate your car's price with Machine Learning!</p>", unsafe_allow_html=True)
 
 # --- IMAGE ---
-image_path = str(Path(__file__).parents[1] / 'pic/images.png')
+image_path = str(Path(__file__).parents[1] / 'used-car-all-brand-sell--613.jpg')
 st.image(image_path, use_column_width=True)
 
 st.markdown("---")
@@ -41,7 +41,7 @@ st.markdown("---")
 # --- LOAD DATA ---
 @st.cache_data
 def load_data():
-    return pd.read_csv(str(Path(__file__).parents[1] / 'data/used_car_cleaned.csv'))
+    return pd.read_csv(str(Path(__file__).parents[1] / 'used_car_cleaned.csv'))
 
 used_car = load_data()
 
