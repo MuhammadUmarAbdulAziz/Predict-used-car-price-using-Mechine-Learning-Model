@@ -4,7 +4,7 @@ from sklearn.model_selection import train_test_split
 import joblib
 
 # Load dataset
-df = pd.read_csv('used_car_cleaned.csv')
+df = pd.read_csv('used_cars_cleaned.csv')
 
 # Pisahkan fitur dan target
 X = df.drop('Price', axis=1)
