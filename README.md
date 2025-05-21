@@ -168,3 +168,10 @@ Beberapa fitur kategorikal seperti Make, Type, dan Origin masih memiliki pengaru
 **5. Validasi Model Lebih Lanjut**
 
 Terakhir, untuk memastikan model yang dibangun dapat digunakan secara umum, disarankan untuk menggunakan teknik validasi silang (cross-validation) yang lebih ketat. Teknik ini dapat memberikan estimasi performa model yang lebih stabil dan membantu menghindari bias akibat data yang tidak merata.
+
+## Recomendation
+
+Streamlit link:
+https://model-test-fifhys8frltalegm6mvlab.streamlit.app
+
+<img src="Picture/Untitled.jpeg" alt="isolated" width="700"/>
