@@ -115,7 +115,7 @@ Dalam proses pemilihan model terbaik, digunakan metrik evaluasi **Mean Absolute 
 
 Berikut adalah hasil evaluasi terhadap semua model terhadap **data train**
 <img src="Picture/Screenshot 2025-05-20 135536.png" alt="isolated" width="700"/>
-<img src="Picture/Screenshot 2025-05-21 191318.png" alt="isolated" width="700"/>
+<img src="Picture/Screenshot 2025-05-21 191318.png" alt="isolated" width="500"/>
 Berdasarkan hasil uji terhadap data test diatas, didapatkan bahwa model Ridge Regression memiliki score matrix yang terbaik, maka model ini yang akan digunakan untuk memprediksi harga mobil sewa.
 
 ## Result
@@ -132,7 +132,7 @@ Distribusi data yang tidak merata dan keberadaan outlier pada harga-harga ekstre
 
 ## Conclusion
 
-<img src="Picture/Screenshot 2025-05-20 143938.png" alt="isolated" width="700"/>
+<img src="Picture/Screenshot 2025-05-20 143938.png" alt="isolated" width="500"/>
 
 Berdasarkan hasil evaluasi model menggunakan metrik Mean Absolute Error (MAE), didapatkan nilai MAE sebesar 18.344 SAR. Artinya, rata-rata selisih antara harga mobil bekas yang diprediksi oleh model dengan harga sebenarnya adalah sekitar 18.344 Saudi Riyal. Untuk mobil dengan harga tinggi, misalnya hingga 850.000 SAR, kesalahan prediksi ini relatif kecil (sekitar 2,2%) dan masih dapat ditoleransi. Namun, untuk mobil dengan harga rendah seperti 500 SAR, nilai kesalahan ini menjadi sangat besar secara persentase, bahkan mencapai lebih dari 3.000%.
 
