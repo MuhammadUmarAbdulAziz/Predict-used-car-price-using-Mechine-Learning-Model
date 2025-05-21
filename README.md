@@ -174,4 +174,4 @@ Terakhir, untuk memastikan model yang dibangun dapat digunakan secara umum, disa
 Streamlit link:
 https://model-test-fifhys8frltalegm6mvlab.streamlit.app
 
-<img src="Picture/Untitled.jpeg" alt="isolated" width="700"/>
+<img src="Picture/Untitled.jpeg" alt="isolated" width="550"/>
